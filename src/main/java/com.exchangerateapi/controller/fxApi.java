@@ -45,7 +45,7 @@ public class fxApi {
      }
 
     @GetMapping("getall")
-    public ResponseEntity<List<FXData>> getAllEmployees() {
+    public ResponseEntity<List<FXData>> getAll() {
 
 
         List<FXData> fxData = fxservice.findAll();
